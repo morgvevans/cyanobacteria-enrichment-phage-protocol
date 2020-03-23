@@ -2,6 +2,8 @@
 
 **This is the protocol used on the cyanophage project, for identifying microbial signatures in the sample, and identifying and clustering viral genomes**
 
+**Make sure to download SingleM, MEGAHIT/metaSPADES, VIBRANT, VContact2, prodigal according to the instructions w/ all dependencies. I use individual conda environments to make sure no issues arise from dependencies.**
+
 *Step 1 From RAW Reads, use SingleM to extract single copy genes for an "OTU" table reconstruction*
 ```
 #PBS -N cyanobacteria_singlem_03122020
